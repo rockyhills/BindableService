@@ -18,11 +18,10 @@ To Remove Binds you do:
 
 BindableService:RemoveBind("StorageName","BindName")
 
-To Completely Remove a storage with its items you do
+To Clear a Storage
 
-BindableService:ClearStorage("StorageName",true) -- true signals "Delete Storage after clearing"
-to just clear a storage you do
-BindableService:ClearStorage("StorageName")
-to get a bindablestorage with its list of items do you do
-BindableService:GetBindableStorage("StorageName") 
+BindableService:ClearStorage("StorageName",true) true signals [Delete Storage after clearing] make it false it if you just want to clear a storage
+
+BindableService:GetBindableStorage("StorageName") to get a bindablestorage with its list of items do you do
+
 
